@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+
+    <style>
+
+        #container{
+            background-color: whitesmoke;
+            padding: 3%;
+            margin-top: 2%;
+            margin-left: 2%;
+            margin-right: 2%;
+            margin-bottom: 2%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            line-height: 2;
+        }
+
+        #containera{
+            background-color:whitesmoke;
+            padding: 2%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        #containerb{
+            background-color: whitesmoke;
+            padding: 2%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        #container1 , #container2 , #container3 , #container4 , #container5 , #container6 {
+            background-color: white;
+            height: 18%;
+            width: 27%;
+            padding: 1.3%;
+            border: 2px solid white;
+            line-height:1.4;
+        }
+
+        .phase1{
+            display: flex;
+            flex-direction: row;
+            font-size: 18px;
+
+        }
+
+        .ratings{
+            color: yellow;
+        }
+
+        .phase2{
+            font-size: 16px;
+
+        }
+
+        .phase3{
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            font-size: 17.5px;
+        }
+
+    </style>
+
+</head>
+<body> 
+
+<div id="container">
+    
+<div id="containera">
+
+<div id="container1">
+
+    <div class="phase1">
+        <span><img src="img1.jpg" width="72">
+        </span> &nbsp;&nbsp;
+        <span>
+            <b>Stripe</b> <br>
+            Payment Services <br>
+            ⭐⭐⭐⭐
+        </span>
+        <!-- <span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> -->
+    </div>
+
+        <div class="phase2">
+            <h4>Get more context on your users with stripe data inside our platform.</h4>
+        </div>
+
+        <div class="phase3">
+            <span>Installed 172 times</span>
+            <span style="color: blue;">view</span>
+        </div>
+
+</div>
+
+<div id="container2">
+
+    <div class="phase1">
+        <span><img src="img2.jpg" width="74">
+        </span> &nbsp;&nbsp;
+        <span>
+            <b>Mailchimp</b> <br>
+            Project management <br>
+            ⭐⭐⭐⭐
+        </span>
+        <!-- <span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> -->
+    </div>
+
+        <div class="phase2">
+            <h4>Capture and sync subscribers from your mailchimp platform to ours with ease.</h4>
+        </div>
+
+        <div class="phase3">
+            <span>Installed 1234 times</span>
+            <span style="color: blue;">view</span>
+        </div>
+
+</div>
+
+<div id="container3">
+
+    <div class="phase1">
+        <span><img src="img3.jpg" width="70">
+        </span> &nbsp;&nbsp;
+        <span>
+            <b>Dropbox</b> <br>
+            File Management <br>
+            ⭐⭐⭐⭐
+        </span>
+        <!-- <span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> -->
+    </div>
+
+        <div class="phase2">
+            <h4>Use dropbox to sync your photos to our platform and share it with others.</h4>
+        </div>
+
+        <div class="phase3">
+            <span>Installed 1234 times</span>
+            <span style="color: blue;">view</span>
+        </div>
+
+</div>
+
+</div>
+
+<div id="containerb">
+
+<div id="container4">
+
+    <div class="phase1">
+        <span><img src="img4.jpg" width="64">
+        </span> &nbsp;&nbsp;
+        <span>
+            <b>Shopify</b> <br>
+            Ecommerce <br>
+            ⭐⭐⭐⭐
+        </span> <br>
+        <!-- <span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> -->
+    </div>
+
+        <div class="phase2">
+            <h4>Sell your items with ease with having any website with our free platform.</h4>
+        </div>
+
+        <div class="phase3">
+            <span>Installed 1234 times</span>
+            <span style="color: blue;">view</span>
+        </div>
+
+</div>
+
+<div id="container5">
+
+    <div class="phase1">
+        <span><img src="img5.jpg" width="74">
+        </span> &nbsp;&nbsp;
+        <span>
+            <b>Atlassian</b> <br>
+            Project Management <br>
+            ⭐⭐⭐⭐
+        </span>
+        <!-- <span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> -->
+    </div>
+
+        <div class="phase2">
+            <h4>Developing products for development, project management and arcitects.</h4>
+        </div>
+
+        <div class="phase3">
+            <span>Installed 345 times</span>
+            <span style="color: blue;">view</span>
+        </div>
+
+</div>
+
+<div id="container6">
+
+    <div class="phase1">
+        <span><img src="img6.jpg" width="72">
+        </span> &nbsp;&nbsp;
+        <span>
+            <b>Salesforce</b> <br>
+            Project Management <br>
+            ⭐⭐⭐⭐
+        </span>
+        <!-- <span class="ratings"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> -->
+    </div>
+
+        <div class="phase2">
+            <h4>Developng products for developers, product managers and architects.</h4>
+        </div>
+
+        <div class="phase3">
+            <span>Installed 345 times</span>
+            <span style="color: blue;">view</span>
+        </div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
